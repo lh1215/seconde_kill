@@ -4,6 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from './vuex/store'
+import { Toast } from 'mint-ui'
+import 'mint-ui/lib/style.css'
+
+// Vue.use(MutiUI)
+Vue.use(Toast)
 
 new Vue({
   el: '#app',

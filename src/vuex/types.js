@@ -1,0 +1,2 @@
+export const INCREASE_NUMBER = 'INCREASE_NUMBER' //加法
+export const DECREASE_NUMBER = 'DECREASE_NUMBER' //减法
