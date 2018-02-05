@@ -1,4 +1,4 @@
-# vuex-demo-1
+# seconde_kill
 
 > A Vue.js project
 
