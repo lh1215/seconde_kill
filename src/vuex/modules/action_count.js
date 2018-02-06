@@ -1,4 +1,4 @@
-import { mutations } from './countMutations';
+import { mutations } from './mutation_count';
 import * as types from '../types'
 
 const state = {

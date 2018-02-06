@@ -4,11 +4,24 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from './vuex/store'
-import { Toast } from 'mint-ui'
+import {
+  Toast,
+  Header,
+  Button,
+  Swipe,
+  SwipeItem,
+  InfiniteScroll
+} from 'mint-ui'
 import 'mint-ui/lib/style.css'
+import 'rewrite.css'
 
 // Vue.use(MutiUI)
-Vue.use(Toast)
+Vue.component(Toast.name, Toast);
+Vue.component(Header.name, Header);
+Vue.component(Button.name, Button);
+Vue.component(Swipe.name, Swipe);
+Vue.component(SwipeItem.name, SwipeItem);
+Vue.use(InfiniteScroll);
 
 new Vue({
   el: '#app',
