@@ -13,7 +13,8 @@ import {
   InfiniteScroll
 } from 'mint-ui'
 import 'mint-ui/lib/style.css'
-import 'rewrite.css'
+import 'page/style/rewrite.css'
+import 'page/style/page.css'
 
 // Vue.use(MutiUI)
 Vue.component(Toast.name, Toast);
@@ -21,6 +22,7 @@ Vue.component(Header.name, Header);
 Vue.component(Button.name, Button);
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
+Vue.component(Button.name, Button);
 Vue.use(InfiniteScroll);
 
 new Vue({

@@ -1,0 +1,135 @@
+.font_14 {
+  font-size: 14px;
+}
+
+.font_12 {
+  font-size: 12px;
+}
+
+.font_15 {
+  font-size: 15px;
+}
+.font_18 {
+  font-size: 18px;
+}
+
+.font_24 {
+  font-size: 24px;
+}
+
+.pl_1 {
+  padding-left: 1rem;
+}
+
+.color_1 {
+  color: #4e4e4e;
+}
+
+.color_2 {
+  color: #fc343a;
+}
+
+.color_3 {
+  color: #64b0d4;
+}
+
+.color_4 {
+  color: #aaaaaa;
+}
+
+/*flex布局，垂直*/
+.vertival_box {
+  display: flex;
+  flex-direction: column;
+}
+
+/*flex布局，水平*/
+.row_box {
+  display: flex;
+  flex-direction: row;
+}
+
+/*flex布局垂直水平居中*/
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify {
+  justify-content: center;
+}
+
+.alignItem {
+  align-items: center;
+}
+
+/*文字*/
+.MicrosoftYaHei {
+  font-family: MicrosoftYaHei;
+}
+
+.PingFang {
+  font-family: PingFang-SC-Medium;
+}
+
+.active_message {
+  height: 3rem;
+  /*float: left;*/
+  background-color: #2d3845;
+  /*line-height: 2.75rem;*/
+  width: 100%;
+  /*display: table;*/
+}
+
+.active_title {
+  float: left;
+  width: 9rem;
+  color: #ffffff;
+  background-color: #df305d;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.active_content_view {
+  float: left;
+  overflow: hidden;
+  /*width: 12.75rem;*/
+}
+
+.active_content {
+  color: #b8c1cc;
+}
+
+.nowrap {
+  white-space:nowrap;
+}
+
+.product_img {
+  height: 8.75rem;
+  width: 8.75rem;
+  margin-left: 0.8rem;
+  background-color: red;
+}
+
+.product_message {
+  float: left;
+  overflow: hidden;
+  margin-left: 0.8rem;
+}
+
+.comp_product {
+  height: 166px;
+  width: 100%;
+  background-color: pink;
+  overflow: hidden;
+}
+
+.product_count {
+  margin-top: 0.5rem;
+}
+
+.text_handle {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
