@@ -12,6 +12,7 @@ import {
   SwipeItem,
   InfiniteScroll
 } from 'mint-ui'
+import './config/rem'
 import 'mint-ui/lib/style.css'
 import 'page/style/rewrite.css'
 import 'page/style/page.css'

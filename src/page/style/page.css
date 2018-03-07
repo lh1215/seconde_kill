@@ -1,20 +1,20 @@
 .font_14 {
-  font-size: 14px;
+  font-size: 0.5rem;
 }
 
 .font_12 {
-  font-size: 12px;
+  font-size: 0.45rem;
 }
 
 .font_15 {
-  font-size: 15px;
+  font-size: 0.55rem;
 }
 .font_18 {
-  font-size: 18px;
+  font-size: 0.7rem;
 }
 
 .font_24 {
-  font-size: 24px;
+  font-size: 0.9rem;
 }
 
 .pl_1 {
@@ -73,7 +73,7 @@
 }
 
 .active_message {
-  height: 3rem;
+  height: 2.3rem;
   /*float: left;*/
   background-color: #2d3845;
   /*line-height: 2.75rem;*/
@@ -83,7 +83,7 @@
 
 .active_title {
   float: left;
-  width: 9rem;
+  width: 26vw;
   color: #ffffff;
   background-color: #df305d;
   padding-left: 1rem;
@@ -94,10 +94,12 @@
   float: left;
   overflow: hidden;
   /*width: 12.75rem;*/
+  width: auto;
 }
 
 .active_content {
   color: #b8c1cc;
+  line-height: 2rem;
 }
 
 .nowrap {
@@ -105,31 +107,35 @@
 }
 
 .product_img {
-  height: 8.75rem;
-  width: 8.75rem;
-  margin-left: 0.8rem;
+  height: 5rem;
+  width: 5rem;
+  margin-left: 0.5rem;
+  display: block;
   background-color: red;
 }
 
 .product_message {
-  float: left;
+  /*float: left;*/
   overflow: hidden;
-  margin-left: 0.8rem;
+  margin-left: 0.5rem;
+  flex: 1;
 }
 
 .comp_product {
-  height: 166px;
-  width: 100%;
-  background-color: pink;
+  height: 7rem;
+  /*width: 100%;*/
   overflow: hidden;
+  display: flex;
+  border-bottom: 1px solid #efefef;
 }
 
 .product_count {
-  margin-top: 0.5rem;
+  /*margin-top: 0.5rem;*/
 }
 
 .text_handle {
   overflow: hidden;
   text-overflow:ellipsis;
   white-space: nowrap;
+  flex: 1;
 }

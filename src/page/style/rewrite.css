@@ -4,4 +4,18 @@ html, body {
 }
 .mint-header {
   background-color: #22292c;
+  height: 1.95rem;
+  line-height: 1.5;
+}
+
+.mint-header-title, .mint-button-text {
+  font-size: 0.6rem;
+}
+
+.mintui {
+  font-size: 0.6rem;
+}
+
+.mint-button-icon {
+  vertical-align: unset;
 }

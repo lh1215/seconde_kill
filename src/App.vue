@@ -7,6 +7,7 @@
       </router-link>
       <mt-button icon="more" slot="right"></mt-button>
     </mt-header>
+    <!--<div></div>-->
     <div id="content">
       <router-view></router-view>
     </div>
@@ -19,9 +20,9 @@ import { Header } from 'mint-ui'
 
 export default {
   name: 'app',
-  components: {
-    productList
-  }
+  // components: {
+  //   productList
+  // }
 }
 </script>
 
@@ -35,6 +36,7 @@ export default {
   /*line-height: 0px;*/
 }
 #content {
-  margin-top: 2.5rem;
+  margin-top: 1.95rem;
+  background-color: #ffffff;
 }
 </style>
